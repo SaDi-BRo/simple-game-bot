@@ -49,7 +49,7 @@ app.post('/webhook', (req, res) => {
 
 app.listen(3000, async () => {
   console.log('Server is running on port 3000');
-  await bot.telegram.setWebhook('https://yourdomain.com/webhook');
+  await bot.telegram.setWebhook('https://simple-game-bot.onrender.com/webhook');
 });
 
 // Enable graceful stop
